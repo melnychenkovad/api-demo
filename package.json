@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./dist/index.js"
+    "start": "tsc &&  node --experimental-modules --es-module-specifier-resolution=node ./dist/index"
   },
   "author": "Vadym Melnychenko",
   "license": "ISC",
