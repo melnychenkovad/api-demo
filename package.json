@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "start": "tsc &&  node --experimental-modules --es-module-specifier-resolution=node ./dist/index"
+    "start": "tsc && node --experimental-modules --es-module-specifier-resolution=node dist/main",
+    "build": "tsc"
   },
   "author": "Vadym Melnychenko",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "tslog": "^3.3.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.13"
