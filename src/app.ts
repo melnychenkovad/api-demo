@@ -4,7 +4,6 @@ import {LoggerService} from "./logger/logger.service";
 import {UserController} from "./users/users.controller";
 import {ExceptionFilter} from "./errors/exception.filter";
 
-
 export class App {
     app: Express;
     port: number;
